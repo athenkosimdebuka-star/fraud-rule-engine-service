@@ -2,11 +2,11 @@ Fraud Rule Engine Service
 A Java-based Fraud Rule Engine Service built with Spring Boot. This project evaluates financial transactions against configurable fraud rules to help identify potentially suspicious activity.
 
 Features
-Evaluate transactions against fraud detection rules.
+Evaluate financial transactions against fraud detection rules.
 Identify high-value transactions.
 Handle null transaction inputs.
 Use BigDecimal for accurate monetary calculations.
-Include automated tests using JUnit and Spring Boot testing tools.
+Automated tests using JUnit and Spring Boot testing tools.
 Technologies Used
 Java 21
 Spring Boot
@@ -29,7 +29,6 @@ fraud-rule-engine-service/
 Getting Started
 Prerequisites
 Java Development Kit (JDK) 21
-Git
 Run the Tests
 On Windows, open a terminal in the project directory and run:
 
@@ -43,5 +42,3 @@ Run the test command above to verify that the project builds and the tests pass.
 
 Author
 Athenkosi Mdebuka
-
-GitHub: athenkosimdebuka-star
