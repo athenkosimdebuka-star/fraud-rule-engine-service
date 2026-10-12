@@ -6,7 +6,7 @@ Evaluate financial transactions against fraud detection rules.
 Identify high-value transactions.
 Handle null transaction inputs.
 Use BigDecimal for accurate monetary calculations.
-Automated tests using JUnit and Spring Boot testing tools.
+Include automated tests using JUnit and Spring Boot testing tools.
 Technologies Used
 Java 21
 Spring Boot
@@ -42,3 +42,5 @@ Run the test command above to verify that the project builds and the tests pass.
 
 Author
 Athenkosi Mdebuka
+
+GitHub: athenkosimdebuka-star
