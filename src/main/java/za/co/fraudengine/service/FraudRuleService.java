@@ -15,4 +15,7 @@ public class FraudRuleService {
     public boolean isHighValueTransaction(Transaction transaction) {
         return fraudRuleEngine.isHighValueTransaction(transaction);
     }
+public boolean isMissingAccountId(Transaction transaction) {
+return fraudRuleEngine.isMissingAccountId(transaction);
+}
 }

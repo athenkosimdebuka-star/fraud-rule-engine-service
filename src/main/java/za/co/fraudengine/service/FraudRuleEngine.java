@@ -1,3 +1,4 @@
+
 package za.co.fraudengine.service;
 
 import org.springframework.stereotype.Component;
@@ -8,11 +9,17 @@ import java.math.BigDecimal;
 public class FraudRuleEngine {
 
 public boolean isHighValueTransaction(Transaction transaction) {
-    if (transaction == null || transaction.getAmount() == null) {
+if (transaction == null || transaction.getAmount() == null) {
 return false;
-    }
+}
 
 return transaction.getAmount()
 .compareTo(new BigDecimal("1000")) > 0;
+}
+
+public boolean isMissingAccountId(Transaction transaction) {
+return transaction == null
+|| transaction.getAccountId() == null
+|| transaction.getAccountId().isBlank();
 }
 }
